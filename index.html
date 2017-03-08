@@ -1,18 +1,13 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
-</head>
+	<title>Zach's Board</title>
+  </head>
 
 <body>
-<h1>Soundboard</h1>
-  <audio id="sound1" src="Voice_001.mp3"></audio>
-  <audio id="sound1" src="Voice_002.mp3"></audio>
-<br>
-<button onclick="document.getElementByID('sound1').play()">Sound 1</button>
-</br>
-<button onclick="document.getElementByID('sound1').play()">Sound 2</button>
-
-<script src="app.js"></script>
-
+  <audio id="sound1" src = "sound1.mp3" preload="auto"></audio>
+  <audio id = "sound2" src = "sound2.mp3" controls></audio>
+	<button onclick="document.getElementById('sound1').play()">Clark Ninja Turtles</button>
+	<button onclick="document.getElementById('sound2').play()">Julie</button>
 </body>
 </html>
